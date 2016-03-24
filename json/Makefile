@@ -9,4 +9,4 @@ main: main.o
 
 .PHONY: clean
 clean:
-	-rm main json *.o
+	-rm main *.o
