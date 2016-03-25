@@ -9,15 +9,13 @@ int main()
         "\"I know, I'll use regular expressions.\" "
         "Now they have two problems.";
 
-    std::regex self_regex("REGULAR EXPRESSIONS",
-            std::regex_constants::ECMAScript | std::regex_constants::icase);
+    std::regex self_regex("REGULAR EXPRESSIONS", std::regex_constants::ECMAScript | std::regex_constants::icase);
     if (std::regex_search(s, self_regex)) {
         std::cout << "Text contains the phrase 'regular expressions'\n";
     }
 
     std::regex word_regex("(\\S+)");
-    auto words_begin =
-        std::sregex_iterator(s.begin(), s.end(), word_regex);
+    auto words_begin = std::sregex_iterator(s.begin(), s.end(), word_regex);
     auto words_end = std::sregex_iterator();
 
     std::cout << "Found "
