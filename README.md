@@ -26,3 +26,13 @@ Using Hiredis:
 Using RapidJSON:
 
 <http://rapidjson.org/>
+
+
+## Regex
+
+<https://solarianprogrammer.com/2011/10/12/cpp-11-regex-tutorial/>
+<https://solarianprogrammer.com/2011/10/20/cpp-11-regex-tutorial-part-2/>
+
+## Threads
+
+<https://www.tutorialcup.com/cplusplus/multithreading.htm>
