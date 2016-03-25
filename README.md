@@ -36,3 +36,13 @@ Using RapidJSON:
 ## Threads
 
 <https://www.tutorialcup.com/cplusplus/multithreading.htm>
+
+
+## Postgres
+
+Using libpqxx:  <http://pqxx.org/development/libpqxx/>
+Tutorial: http://pqxx.org/devprojects/libpqxx/doc/2.6.5/html/Tutorial/
+
+To install libpqxx:
+
+    osx$ brew install libpqxx 
