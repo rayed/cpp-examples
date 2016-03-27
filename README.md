@@ -31,6 +31,7 @@ Using RapidJSON:
 ## Regex
 
 <https://solarianprogrammer.com/2011/10/12/cpp-11-regex-tutorial/>
+
 <https://solarianprogrammer.com/2011/10/20/cpp-11-regex-tutorial-part-2/>
 
 ## Threads
@@ -41,8 +42,13 @@ Using RapidJSON:
 ## Postgres
 
 Using libpqxx:  <http://pqxx.org/development/libpqxx/>
+
 Tutorial: http://pqxx.org/devprojects/libpqxx/doc/2.6.5/html/Tutorial/
 
 To install libpqxx:
 
-    osx$ brew install libpqxx 
+    osx$ brew install libpqxx
+
+## Logging
+
+Uses Boost.Log
