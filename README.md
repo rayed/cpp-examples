@@ -52,3 +52,17 @@ To install libpqxx:
 ## Logging
 
 Uses Boost.Log
+
+
+## Config
+
+Read configuration from both file and configuration file, it uses Boost.
+
+Try:
+
+    ./main
+    ./main -c config.cfg
+    ./main -c config2.cfg
+    ./main --help
+    ./main -o 12
+    ./main --optimization 12
