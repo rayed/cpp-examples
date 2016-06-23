@@ -1,5 +1,5 @@
 CC=g++
-CPPFLAGS=-Wall -O3 -std=c++11
+CPPFLAGS=-Wall -O3 -std=c++11 `pkg-config --cflags RapidJSON`
 LDLIBS=
 
 all: main
